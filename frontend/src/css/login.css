@@ -1,0 +1,38 @@
+@import 'variables.css';
+@import 'login-bg.css';
+@import 'login-branding.css';
+@import 'login-content.css';
+@import 'login-responsiveness.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    background-color: var(--navy-950);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+button, input { 
+    font-family: inherit; 
+}
+
+svg { 
+    width: 100%; 
+    height: 100%; 
+}
+
+.icon { 
+    display: inline-flex; 
+    flex-shrink: 0; 
+}

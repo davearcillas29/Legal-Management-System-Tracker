@@ -1,0 +1,16 @@
+/* Responsive adjustments for smaller screen sizes */
+@media (max-width:900px){
+    .app{ flex-direction:column; }
+    .sidebar{ width:100%; padding:20px; }
+    .nav-list{ flex-direction:row; overflow-x:auto; gap:8px; padding-bottom:4px; }
+    .nav-item{ flex-shrink:0; }
+    .topbar,.alert-banner,.content{ padding-left:22px; padding-right:22px; }
+    .card-meta-right{ margin-left:0; width:100%; justify-content:space-between; }
+    .card-top{ flex-wrap:wrap; }
+    .info-grid{ grid-template-columns:1fr; }
+    .page-title{ font-size:27px; }
+}
+
+@media (prefers-reduced-motion:reduce){
+    *{ transition:none !important; }
+}

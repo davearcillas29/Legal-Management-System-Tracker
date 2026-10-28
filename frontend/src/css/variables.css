@@ -1,0 +1,30 @@
+:root{
+    --navy-950: #0b1426;
+    --navy-900:#122142;
+    --navy-800:#1b3a70;
+    --navy-700:#254b8c;
+    --navy-600:#2c5399;
+    --navy-500: #3b66b3;
+    --blue-500:#2f6fe0;
+    --gold-500: #d4af37;
+    --gold-400: #e5c158;
+    --amber-500:#e8930f;
+    --amber-600:#d9840c;
+    --amber-text:#92590a;
+    --green-text:#047857;
+    --gray-text:#6b7280;
+    --red-text:#b5484f;
+    --red-500: #d93838;
+    --red-100: #fde8e8;
+    --green-color:#008450;
+    
+    --text-dark: #0f172a;
+    --text-muted: #64748b;
+    --text-faint: #94a3b8;
+
+    --border-light: #e2e8f0;
+
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
